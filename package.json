@@ -1,0 +1,21 @@
+
+{
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "kill-port": "^2.0.1",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "compilerOptions": {
+    "module": "es2015"
+  }
+}

@@ -1,0 +1,173 @@
+.body{
+    
+}
+.video-container {
+  background: linear-gradient(#606c88, #3f4c6b);
+  position: relative;
+  width: 100%; /* set the width to 50% */
+  padding-bottom: 40%; /* set the height to 50% of 16:9 aspect ratio */
+  margin: 0 auto; /* center the container horizontally */
+}
+
+.video-container iframe {
+  background: linear-gradient(#606c88, #3f4c6b);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.content{
+    background: linear-gradient(#606c88, #3f4c6b);
+    height: 100vh;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.neutral{
+    height: 15vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.angry{
+    height: 15vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.sad{
+    height: 15vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.fear{
+    height: 15vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+.happy{
+    height: 15vh;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* CSS */
+.gg-record{
+    margin: 4%;
+    padding: 1%;
+    color: #360505 ;
+    transition: all .3s;
+    opacity: 0.8;
+}
+.gg-backspace{
+    margin: 4.5%;
+    padding: 0.725%;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    transition: all .3s;
+    opacity: 0.8;
+    display: none;
+}
+.gg-backspace:before{
+    opacity: .5;
+
+}
+.gg-record:before{
+    opacity: .5;
+
+}
+.gg-backspace:hover{
+    opacity: 1;
+    transform: scale(1.5);
+
+}
+.gg-record:hover{
+    opacity: 1;
+    transform: scale(1.5);
+
+}
+p{
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+    margin-top: 4%;
+}
+a{
+    
+    display: none;
+    margin: 4%;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #000000;
+    transition: all .35s;
+  }
+  
+  a:hover{
+    color: #fff;
+  }
+  
+  a:hover:after{
+    width: 100%;
+  }
+  form{
+    height: 3vh;
+    margin: 3%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+  }
+  #id{
+
+  }
+
+  #submit{
+    margin-left: 1%;
+    display: block;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  .audio-bar{
+    margin: 3.5%;
+  }
+ 
+ 
